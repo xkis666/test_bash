@@ -22,7 +22,7 @@ install_pm2(){
         echo "Node.js 已安装"
     else
         echo "Node.js 未安装，正在安装..."
-        curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+        curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
         sudo apt-get install -y nodejs
     fi
     
