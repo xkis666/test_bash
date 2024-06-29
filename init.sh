@@ -85,8 +85,8 @@ active_menu(){
         
         case $OPTION in
             1) install_pm2 ;;
-            1) run_node ;;
-            1) set_node_and_run ;;
+            2) run_node ;;
+            3) set_node_and_run ;;
             *) echo "无效选项。" ;;
         esac
         echo "按任意键返回主菜单..."
