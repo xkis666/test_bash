@@ -5,3 +5,6 @@
 wget -O xkis666_test_bash.sh https://raw.githubusercontent.com/xkis666/test_bash/main/start.sh && chmod +x xkis666_test_bash.sh && ./xkis666_test_bash.sh
 
 wget -O init.sh https://raw.githubusercontent.com/xkis666/test_bash/main/init.sh && chmod +x init.sh && ./init.sh
+
+
+wget -O quil.sh https://raw.githubusercontent.com/xkis666/test_bash/main/quil.sh && chmod +x quil.sh && ./quil.sh
